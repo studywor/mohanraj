@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>SUM</title>
+    <script>
+        function sum()
+        {
+            var a=parseInt(document.getElementById("tb1").value);
+            var b=parseInt(document.getElementById("tb2").value);
+            var c=a + b;
+            window.alert("" + c);
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="POST">
+        <p>Enter num1: <input type="text" name="tb1" id="tb1"> </input></p><br>
+        <p> Enter num2: <input type="text" name="tb2" id="tb2"> </p></input><br>
+        <br> <button onclick="sum()">SUM</button>
+    </form>
+</body>
+</html>
